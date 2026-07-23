@@ -8,4 +8,5 @@ public sealed class Product
     public decimal Price { get; set; }
     public int Stock { get; set; }
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
+    public string Data { get; set; } = string.Empty;
 }
